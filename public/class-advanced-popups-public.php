@@ -176,7 +176,7 @@ class ADP_Public {
 							<div class="adp-popup-outer" style="<?php echo esc_attr( $outer_style ); ?>">
 								<?php if ( $has_post_thumbnail ) { ?>
 									<div class="adp-popup-thumbnail">
-										<?php echo get_the_post_thumbnail( $popup->ID, 'csco-thumbnail', array( 'class' => 'adp-lazyload-disabled' ) ); ?>
+										<?php echo get_the_post_thumbnail( $popup->ID, 'large', array( 'class' => 'adp-lazyload-disabled' ) ); ?>
 									</div>
 								<?php } ?>
 
