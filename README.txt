@@ -14,6 +14,9 @@ Display high-converting newsletter popups, a cookie notice, or a notification wi
 
 == Changelog ==
 
+= 1.0.6 =
+* Minor improvements.
+
 = 1.0.5 =
 * Improve thumbnail.
 

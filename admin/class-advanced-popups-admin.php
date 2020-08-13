@@ -334,7 +334,8 @@ class ADP_Admin {
 																	if ( 'taxonomy' === $type ) {
 																		$term = get_term( $object );
 
-																		$name = get_the_title( $term->name );
+																		$name = $term->name;
+
 																	}
 																	?>
 																		<option value="<?php echo esc_attr( $object ); ?>" selected="selected"><?php echo esc_html( $name ); ?></option>

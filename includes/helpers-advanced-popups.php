@@ -80,5 +80,8 @@ function adp_is_popup_visible( $popup_id ) {
 		$visible = ! ( ( 'guest' === $popup_show_to && is_user_logged_in() ) || ( 'user' === $popup_show_to && ! is_user_logged_in() ) );
 	}
 
+	// Apply a final filter to determine visibility.
+	$visible = apply_filters( 'advanced_popups_is_popup_visible', $visible, $popup_id );
+
 	return $visible;
 }

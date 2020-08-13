@@ -20,7 +20,7 @@ msgstr ""
 msgid "Popup Settings"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:151, admin/class-advanced-popups-admin.php:299, admin/class-advanced-popups-admin.php:909
+#: admin/class-advanced-popups-admin.php:151, admin/class-advanced-popups-admin.php:299, admin/class-advanced-popups-admin.php:910
 msgid "General"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Preview Image"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:199, admin/class-advanced-popups-admin.php:431, includes/class-advanced-popups-rules.php:70
+#: admin/class-advanced-popups-admin.php:199, admin/class-advanced-popups-admin.php:432, includes/class-advanced-popups-rules.php:70
 msgid "None"
 msgstr ""
 
@@ -160,199 +160,199 @@ msgstr ""
 msgid "Specific Pages"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:300, admin/class-advanced-popups-admin.php:910
+#: admin/class-advanced-popups-admin.php:300, admin/class-advanced-popups-admin.php:911
 msgid "Posts Types"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:301, admin/class-advanced-popups-admin.php:911
+#: admin/class-advanced-popups-admin.php:301, admin/class-advanced-popups-admin.php:912
 msgid "Taxonomies"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:357, admin/class-advanced-popups-admin.php:912
+#: admin/class-advanced-popups-admin.php:358, admin/class-advanced-popups-admin.php:913
 msgid "Add another OR rule"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:360, admin/class-advanced-popups-admin.php:913
+#: admin/class-advanced-popups-admin.php:361, admin/class-advanced-popups-admin.php:914
 msgid "Remove"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:370
+#: admin/class-advanced-popups-admin.php:371
 msgid "Add New Rule "
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:377
+#: admin/class-advanced-popups-admin.php:378
 msgid "Trigger Open Popup"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:380, admin/class-advanced-popups-admin.php:397, admin/class-advanced-popups-admin.php:432, admin/class-advanced-popups-admin.php:438
+#: admin/class-advanced-popups-admin.php:381, admin/class-advanced-popups-admin.php:398, admin/class-advanced-popups-admin.php:433, admin/class-advanced-popups-admin.php:439
 msgid "Time Delay"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:381
+#: admin/class-advanced-popups-admin.php:382
 msgid "Page Viewed"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:382
+#: admin/class-advanced-popups-admin.php:383
 msgid "Page Read"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:383
+#: admin/class-advanced-popups-admin.php:384
 msgid "Exit Intent"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:384, admin/class-advanced-popups-admin.php:405, admin/class-advanced-popups-admin.php:433
+#: admin/class-advanced-popups-admin.php:385, admin/class-advanced-popups-admin.php:406, admin/class-advanced-popups-admin.php:434
 msgid "Scroll Position"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:385
+#: admin/class-advanced-popups-admin.php:386
 msgid "Accept Agreement"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:386
+#: admin/class-advanced-popups-admin.php:387
 msgid "Manual Launch"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:392
+#: admin/class-advanced-popups-admin.php:393
 msgid "It works for \"Notification Box\" and \"Notification Bar\". And if \"Notification Button Action\" is selected as \"Accept\", then the popup will be displayed until the user accepts the agreement."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:400, admin/class-advanced-popups-admin.php:441
+#: admin/class-advanced-popups-admin.php:401, admin/class-advanced-popups-admin.php:442
 msgid "Seconds"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:412, admin/class-advanced-popups-admin.php:453
+#: admin/class-advanced-popups-admin.php:413, admin/class-advanced-popups-admin.php:454
 msgid "Px."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:413, admin/class-advanced-popups-admin.php:454
+#: admin/class-advanced-popups-admin.php:414, admin/class-advanced-popups-admin.php:455
 msgid "%"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:414, admin/class-advanced-popups-admin.php:455
+#: admin/class-advanced-popups-admin.php:415, admin/class-advanced-popups-admin.php:456
 msgid "of screen"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:420
+#: admin/class-advanced-popups-admin.php:421
 msgid "CSS Selector"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:428
+#: admin/class-advanced-popups-admin.php:429
 msgid "Trigger Close Popup"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:446
+#: admin/class-advanced-popups-admin.php:447
 msgid "Offset Scroll Position"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:463
+#: admin/class-advanced-popups-admin.php:464
 msgid "Open Animation"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:467, admin/class-advanced-popups-admin.php:480
+#: admin/class-advanced-popups-admin.php:468, admin/class-advanced-popups-admin.php:481
 msgid "Fade"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:468, admin/class-advanced-popups-admin.php:481
+#: admin/class-advanced-popups-admin.php:469, admin/class-advanced-popups-admin.php:482
 msgid "Slide"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:469, admin/class-advanced-popups-admin.php:482
+#: admin/class-advanced-popups-admin.php:470, admin/class-advanced-popups-admin.php:483
 msgid "Zoom"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:470, admin/class-advanced-popups-admin.php:483
+#: admin/class-advanced-popups-admin.php:471, admin/class-advanced-popups-admin.php:484
 msgid "Slide and Fade"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:476
+#: admin/class-advanced-popups-admin.php:477
 msgid "Exit Animation"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:489
+#: admin/class-advanced-popups-admin.php:490
 msgid "Content Box Width"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:493, admin/class-advanced-popups-admin.php:503, admin/class-advanced-popups-admin.php:513
+#: admin/class-advanced-popups-admin.php:494, admin/class-advanced-popups-admin.php:504, admin/class-advanced-popups-admin.php:514
 msgid "px."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:499
+#: admin/class-advanced-popups-admin.php:500
 msgid "Notification Box Width"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:509
+#: admin/class-advanced-popups-admin.php:510
 msgid "Notification Bar Width"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:519
+#: admin/class-advanced-popups-admin.php:520
 msgid "Light Close Button"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:527
+#: admin/class-advanced-popups-admin.php:528
 msgid "Display Overlay"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:537
+#: admin/class-advanced-popups-admin.php:538
 msgid "Mobile Disable"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:540
+#: admin/class-advanced-popups-admin.php:541
 msgid "Disable popup on mobile"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:545
+#: admin/class-advanced-popups-admin.php:546
 msgid "Disable Scrolling"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:548
+#: admin/class-advanced-popups-admin.php:549
 msgid "Disable scrolling on body"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:553
+#: admin/class-advanced-popups-admin.php:554
 msgid "Click Overlay to Close"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:556
+#: admin/class-advanced-popups-admin.php:557
 msgid "Checking this will cause popup to close when user clicks on overlay"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:561
+#: admin/class-advanced-popups-admin.php:562
 msgid "Press ESC to Close"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:564
+#: admin/class-advanced-popups-admin.php:565
 msgid "Checking this will cause popup to close when user presses ESC key"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:569
+#: admin/class-advanced-popups-admin.php:570
 msgid "Press F4 to Close"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:572
+#: admin/class-advanced-popups-admin.php:573
 msgid "Checking this will cause popup to close when user presses F4 key"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:914
+#: admin/class-advanced-popups-admin.php:915
 msgid "Find items..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:915
+#: admin/class-advanced-popups-admin.php:916
 msgid "The results could not be loaded."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:916
+#: admin/class-advanced-popups-admin.php:917
 msgid "Loading more results..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:917
+#: admin/class-advanced-popups-admin.php:918
 msgid "Nothing not found"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:918
+#: admin/class-advanced-popups-admin.php:919
 msgid "Searching..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:919
+#: admin/class-advanced-popups-admin.php:920
 msgid "Remove all items"
 msgstr ""
 

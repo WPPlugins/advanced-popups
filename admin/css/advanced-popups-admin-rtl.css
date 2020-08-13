@@ -546,8 +546,8 @@
 	visibility: hidden;
 }
 
-.popup-block-easy .editor-block-list__layout,
-.popup-block-easy .editor-post-text-editor {
+.popup-block-easy .editor-post-text-editor,
+.popup-block-easy .block-editor-block-list__layout {
 	display: none;
 }
 
