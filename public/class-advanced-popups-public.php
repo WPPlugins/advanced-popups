@@ -142,6 +142,9 @@ class ADP_Public {
 			$class .= ' adp-popup-location-' . esc_attr( $popup_location );
 			$class .= ' adp-preview-image-' . esc_attr( $popup_preview_image );
 			$class .= ' adp-preview-image-' . esc_attr( $has_post_thumbnail ? 'yes' : 'no' );
+
+			// Filter clasess.
+			$class = apply_filters( 'adp_popup_clasess', $class, $popup->ID, $popup_type, $popup_location );
 			?>
 			<div class="<?php echo esc_attr( $class ); ?>"
 				data-limit-display="<?php echo esc_attr( $popup_limit_display ); ?>"
