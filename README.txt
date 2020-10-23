@@ -14,8 +14,11 @@ Display high-converting newsletter popups, a cookie notice, or a notification wi
 
 == Changelog ==
 
+= 1.0.9 =
+* Minor improvements.
+
 = 1.0.8 =
-* Added dev filter to classes in popup
+* Added dev filter to classes in popup.
 
 = 1.0.7 =
 * Compatibility fixes for WordPress 5.5

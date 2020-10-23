@@ -237,9 +237,11 @@ class ADP_Public {
 				// Parse blocks.
 				$blocks = parse_blocks( $popup->post_content );
 
-				$blocks = cnvs_gutenberg()->parse_blocks_css( $blocks );
+				$blocks_css = cnvs_gutenberg()->parse_blocks_css( $blocks );
 
-				echo sprintf( '<style>%s</style>', $blocks ); // XSS.
+				if ( $blocks_css ) {
+					echo sprintf( '<style>%s</style>', $blocks_css ); // XSS.
+				}
 			}
 		}
 	}
