@@ -384,6 +384,8 @@ jQuery(document).ready(function($) {
 			setCookie: function( name, value, options ) {
 				options = options || {};
 
+				options.path = options.hasOwnProperty( 'path' ) ? options.path : '/';
+
 				options.expires = parseInt( options.expires );
 
 				if ( typeof options.expires == "number" && options.expires ) {

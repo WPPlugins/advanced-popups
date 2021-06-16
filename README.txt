@@ -14,6 +14,9 @@ Display high-converting newsletter popups, a cookie notice, or a notification wi
 
 == Changelog ==
 
+= 1.1.1 =
+* Improved functions for working with cookies.
+
 = 1.1.0 =
 * Updated styles for mobile devices.
 

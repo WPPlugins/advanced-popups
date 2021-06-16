@@ -16,8 +16,6 @@
 .adp-metabox-wrap .adp-metabox-tabs {
 	background: none;
 	border: none;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -25,18 +23,11 @@
 }
 
 .adp-metabox-wrap .adp-metabox-tabs > .adp-metabox-tabs-navigation {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
 	border: none;
 	border-right: 1px solid #eee;
 	background: #FAFAFA;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 200px;
 	flex: 0 0 200px;
 	margin: 0;
 	padding: 0;
@@ -54,7 +45,6 @@
 	padding: 0;
 	float: none;
 	outline: none;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	border-radius: 0;
 }
@@ -69,7 +59,6 @@
 	padding: 0.625rem;
 	text-decoration: none;
 	outline: none;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #0073aa;
 	float: none;
@@ -92,8 +81,6 @@
 }
 
 .adp-metabox-wrap .adp-metabox-tabs > .adp-metabox-tabs-content {
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
 
@@ -104,26 +91,16 @@
 
 @media screen and (max-width: 768px) {
 	.adp-metabox-wrap .adp-metabox-tabs {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	.adp-metabox-wrap .adp-metabox-tabs > .adp-metabox-tabs-navigation {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 	}
 }
 
 .adp-metabox-wrap .adp-metabox-field {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	position: relative;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
 }
 
@@ -133,13 +110,10 @@
 
 .adp-metabox-wrap .adp-metabox-field .adp-metabox-label {
 	position: relative;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
 	float: none;
 	margin: 0;
 	padding: 1rem 1rem 0.5rem;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -152,12 +126,9 @@
 
 .adp-metabox-wrap .adp-metabox-field .adp-metabox-input {
 	position: relative;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
 	margin: 0;
 	padding: 1rem 1rem 0.5rem;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -177,28 +148,19 @@
 
 @media (min-width: 1200px) {
 	.adp-metabox-wrap .adp-metabox-field {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
 		flex-direction: row;
 	}
 	.adp-metabox-wrap .adp-metabox-field .adp-metabox-label {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 20%;
 		flex: 0 0 20%;
 		padding: 1rem 1.25rem;
 	}
 	.adp-metabox-wrap .adp-metabox-field .adp-metabox-input {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 0 80%;
 		flex: 0 0 80%;
 		padding: 1rem 1.25rem;
 	}
 }
 
 .adp-metabox-wrap .adp-metabox-switcher {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	position: absolute;
 	top: -2rem;
@@ -207,12 +169,9 @@
 
 .adp-metabox-wrap .adp-metabox-switcher .adp-metabox-switch {
 	border: 2px solid #555d66;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #fff;
 	cursor: pointer;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 	height: 1.75rem;
 	height: 18px;
@@ -233,7 +192,6 @@
 	z-index: 1;
 	background: #6C7781;
 	border-radius: 50%;
-	-webkit-transition: all 0s ease 0.25s;
 	transition: all 0s ease 0.25s;
 }
 
@@ -258,7 +216,6 @@
 	z-index: 1;
 	background: #6C7781;
 	border-radius: 50%;
-	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
 
@@ -283,7 +240,6 @@
 	width: 2px;
 	height: 6px;
 	background: #FFFFFF;
-	-webkit-transition: none;
 	transition: none;
 }
 
@@ -423,16 +379,12 @@
 }
 
 .adp-metabox-wrap .popup-field-rules {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
 }
 
 .adp-metabox-wrap .popup-field-rules input[type="text"],
 .adp-metabox-wrap .popup-field-rules select {
 	width: 100%;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -482,25 +434,15 @@
 }
 
 .adp-metabox-wrap .popup-field-rules-list .tools-bar {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
 	justify-content: flex-start;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	margin-top: 1rem;
 }
 
 .adp-metabox-wrap .popup-field-rules-list .remove-another-rule {
 	position: absolute;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	top: 1rem;
 	right: 1rem;
@@ -522,7 +464,6 @@
 
 .adp-metabox-wrap .popup-field-rules-list .select2-selection {
 	border: 1px solid #ddd;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
 	border-radius: 0;
 	min-height: 30px;
@@ -555,7 +496,5 @@
 .popup-block-easy .adp-metabox-wrap .popup-field-info-buton-label,
 .popup-block-easy .adp-metabox-wrap .popup-field-info-buton-action,
 .popup-block-easy .adp-metabox-wrap .popup-field-info-buton-link {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 }
