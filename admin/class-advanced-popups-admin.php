@@ -100,8 +100,6 @@ class ADP_Admin {
 	 */
 	public function metabox_popup_callback( $post ) {
 
-		wp_nonce_field( 'adp_popup_meta', 'adp_popup_meta_nonce' );
-
 		$popup_type                   = adp_get_post_meta( $post->ID, '_adp_popup_type', true, 'content' );
 		$popup_location               = adp_get_post_meta( $post->ID, '_adp_popup_location', true, 'center' );
 		$popup_preview_image          = adp_get_post_meta( $post->ID, '_adp_popup_preview_image', true, 'left' );
@@ -145,6 +143,8 @@ class ADP_Admin {
 		?>
 			<div class="adp-metabox-wrap popup-wrap">
 				<input type="hidden" name="adp_popup_action" value="1">
+
+				<?php wp_nonce_field( 'adp_popup_meta_nonce', 'adp_popup_meta_nonce' ); ?>
 
 				<div class="adp-metabox-tabs">
 					<ul class="adp-metabox-tabs-navigation">
@@ -604,7 +604,7 @@ class ADP_Admin {
 			return;
 		}
 
-		if ( isset( $_POST['adp_popup_meta'] ) && ! wp_verify_nonce( wp_unslash( $_POST['adp_popup_meta'] ), 'popup_meta_nonce' ) ) { // Input var ok; sanitization ok.
+		if ( ! isset( $_POST['adp_popup_meta_nonce'] ) || ! wp_verify_nonce( $_POST['adp_popup_meta_nonce'], 'adp_popup_meta_nonce' ) ) { // Input var ok; sanitization ok.
 			return;
 		}
 
@@ -819,7 +819,7 @@ class ADP_Admin {
 	 */
 	public function ajax_rules_objects() {
 
-		wp_verify_nonce( null );
+		check_ajax_referer();
 
 		$search = isset( $_POST['search'] ) ? sanitize_text_field( $_POST['search'] ) : ''; // Input var ok; sanitization ok.
 		$group  = isset( $_GET['group'] ) ? sanitize_text_field( $_GET['group'] ) : 'post_types'; // Input var ok; sanitization ok.
@@ -907,6 +907,7 @@ class ADP_Admin {
 
 			wp_localize_script( $this->adp, 'adp_popup_data', array(
 				'ajaxurl'                => admin_url( 'admin-ajax.php' ),
+				'nonce'                  => wp_create_nonce(),
 				'label_general'          => esc_html__( 'General', 'advanced-popups' ),
 				'label_post_types'       => esc_html__( 'Posts Types', 'advanced-popups' ),
 				'label_taxonomies'       => esc_html__( 'Taxonomies', 'advanced-popups' ),

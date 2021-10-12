@@ -624,6 +624,7 @@
 								rule: rule,
 								search: params.term,
 								page: params.page || 1,
+								_wpnonce: adp_popup_data.nonce,
 								action: 'adp_popup_rules_objects',
 							}
 

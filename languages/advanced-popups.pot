@@ -20,7 +20,7 @@ msgstr ""
 msgid "Popup Settings"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:151, admin/class-advanced-popups-admin.php:299, admin/class-advanced-popups-admin.php:910
+#: admin/class-advanced-popups-admin.php:151, admin/class-advanced-popups-admin.php:299, admin/class-advanced-popups-admin.php:911
 msgid "General"
 msgstr ""
 
@@ -160,19 +160,19 @@ msgstr ""
 msgid "Specific Pages"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:300, admin/class-advanced-popups-admin.php:911
+#: admin/class-advanced-popups-admin.php:300, admin/class-advanced-popups-admin.php:912
 msgid "Posts Types"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:301, admin/class-advanced-popups-admin.php:912
+#: admin/class-advanced-popups-admin.php:301, admin/class-advanced-popups-admin.php:913
 msgid "Taxonomies"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:358, admin/class-advanced-popups-admin.php:913
+#: admin/class-advanced-popups-admin.php:358, admin/class-advanced-popups-admin.php:914
 msgid "Add another OR rule"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:361, admin/class-advanced-popups-admin.php:914
+#: admin/class-advanced-popups-admin.php:361, admin/class-advanced-popups-admin.php:915
 msgid "Remove"
 msgstr ""
 
@@ -332,27 +332,27 @@ msgstr ""
 msgid "Checking this will cause popup to close when user presses F4 key"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:915
+#: admin/class-advanced-popups-admin.php:916
 msgid "Find items..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:916
+#: admin/class-advanced-popups-admin.php:917
 msgid "The results could not be loaded."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:917
+#: admin/class-advanced-popups-admin.php:918
 msgid "Loading more results..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:918
+#: admin/class-advanced-popups-admin.php:919
 msgid "Nothing not found"
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:919
+#: admin/class-advanced-popups-admin.php:920
 msgid "Searching..."
 msgstr ""
 
-#: admin/class-advanced-popups-admin.php:920
+#: admin/class-advanced-popups-admin.php:921
 msgid "Remove all items"
 msgstr ""
 
