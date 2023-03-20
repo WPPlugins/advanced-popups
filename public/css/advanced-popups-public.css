@@ -376,6 +376,10 @@
 	flex-direction: column;
 }
 
+.adp-popup .adp-popup-thumbnail img {
+	width: 100%;
+}
+
 .adp-popup .adp-popup-close {
 	position: absolute;
 	background: transparent;
