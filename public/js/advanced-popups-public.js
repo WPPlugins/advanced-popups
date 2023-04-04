@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
 
 					// Press F4 to Close.
 					if ( e.key === 'F4' ) {
-						$( '.adp-popup-open[data-esc-close="true"]' ).each(function(index, popup) {
+						$( '.adp-popup-open[data-f4-close="true"]' ).each(function(index, popup) {
 							$this.closePopup(popup);
 						});
 					}
