@@ -630,22 +630,6 @@
 
 							return query;
 						},
-						processResults: function( data, params, params2 ) {
-							var options = [];
-
-							if ( data && typeof data.items !== 'undefined' ) {
-								$.each( data.items, function( index, text ) {
-									options.push( { id: index, text: text  } );
-								});
-							}
-
-							return {
-								results: options,
-								pagination: {
-									more: data.pagination,
-								}
-							};
-						},
 						cache: true
 					},
 				} );

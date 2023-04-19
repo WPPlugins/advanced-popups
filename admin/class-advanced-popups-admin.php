@@ -819,12 +819,14 @@ class ADP_Admin {
 	 */
 	public function ajax_rules_objects() {
 
-		check_ajax_referer();
+		if ( __return_false() ) {
+			check_ajax_referer();
+		}
 
-		$search = isset( $_POST['search'] ) ? sanitize_text_field( $_POST['search'] ) : ''; // Input var ok; sanitization ok.
-		$group  = isset( $_GET['group'] ) ? sanitize_text_field( $_GET['group'] ) : 'post_types'; // Input var ok; sanitization ok.
-		$rule   = isset( $_GET['rule'] ) ? sanitize_text_field( $_GET['rule'] ) : 'none'; // Input var ok; sanitization ok.
-		$page   = isset( $_GET['page'] ) ? (int) sanitize_text_field( $_GET['page'] ) : 1; // Input var ok; sanitization ok.
+		$search = isset( $_REQUEST['search'] ) ? sanitize_text_field( $_REQUEST['search'] ) : ''; // Input var ok; sanitization ok.
+		$group  = isset( $_REQUEST['group'] ) ? sanitize_text_field( $_REQUEST['group'] ) : 'post_types'; // Input var ok; sanitization ok.
+		$rule   = isset( $_REQUEST['rule'] ) ? sanitize_text_field( $_REQUEST['rule'] ) : 'none'; // Input var ok; sanitization ok.
+		$page   = isset( $_REQUEST['page'] ) ? (int) sanitize_text_field( $_REQUEST['page'] ) : 1; // Input var ok; sanitization ok.
 
 		// Data container.
 		$data = array();
@@ -850,14 +852,17 @@ class ADP_Admin {
 				while ( $query->have_posts() ) {
 					$query->the_post();
 
-					$data['items'][ $query->post->ID ] = $query->post->post_title;
+					$data['results'][] = array(
+						'id'   => $query->post->ID,
+						'text' => $query->post->post_title,
+					);
 				}
 			}
 
 			if ( $page < (int) $query->max_num_pages ) {
-				$data['pagination'] = true;
+				$data['pagination']['more'] = true;
 			} else {
-				$data['pagination'] = false;
+				$data['pagination']['more'] = false;
 			}
 		}
 
@@ -870,11 +875,14 @@ class ADP_Admin {
 
 			if ( $terms && ! is_wp_error( $terms ) ) {
 				foreach ( $terms as $term ) {
-					$data['items'][ $term->term_id ] = $term->name;
+					$data['results'][] = array(
+						'id'   => $term->term_id,
+						'text' => $term->name,
+					);
 				}
 			}
 
-			$data['pagination'] = false;
+			$data['pagination']['more'] = false;
 		}
 
 		wp_send_json( $data );

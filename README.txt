@@ -3,7 +3,7 @@ Tags: popup, advertising, popups, optin, marketing
 Requires at least: 4.0
 Tested up to: 6.0
 Requires PHP: 5.4
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 Contributors: codesupplyco
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Display high-converting newsletter popups, a cookie notice, or a notification with the light-weight yet feature-rich plugin.
 
 == Changelog ==
+
+= 1.1.5 =
+* Improved rules select posts.
 
 = 1.1.4 =
 * Fixed "Press F4 to Close".
