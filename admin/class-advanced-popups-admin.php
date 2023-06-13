@@ -811,8 +811,11 @@ class ADP_Admin {
 		} else {
 			update_post_meta( $post_id, '_adp_popup_f4_close', '' );
 		}
-	}
 
+		if ( function_exists( 'wp_cache_flush' ) ) {
+			wp_cache_flush();
+		}
+	}
 
 	/**
 	 * Get objects list in rules.
