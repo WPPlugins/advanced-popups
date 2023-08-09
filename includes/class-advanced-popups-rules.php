@@ -211,6 +211,9 @@ class ADP_Popup_Rules {
 						if ( isset( $tools['object'] ) && is_array( $tools['object'] ) ) {
 							foreach ( $tools['object'] as $object ) {
 								$check_or = (int) $post_id === (int) $object ? true : false;
+								if ( $check_or ) {
+									break;
+								}
 							}
 						}
 						break;
@@ -224,6 +227,9 @@ class ADP_Popup_Rules {
 						if ( isset( $tools['object'] ) && is_array( $tools['object'] ) ) {
 							foreach ( $tools['object'] as $object ) {
 								$check_or = (int) $term_id === (int) $object ? true : false;
+								if ( $check_or ) {
+									break;
+								}
 							}
 						}
 						break;
