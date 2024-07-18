@@ -218,15 +218,17 @@ class ADP_Popup_Rules {
 						}
 						break;
 					case 'taxonomy':
-						if ( ! is_tax( $type_object ) ) {
+						if ( ! is_singular() ) {
 							$check_or = false;
 						}
 
-						$term_id = get_queried_object_id();
+						$term_ids = (array) wp_get_post_terms( get_queried_object_id(), $type_object, array( 'fields' => 'ids' ) );
 
 						if ( isset( $tools['object'] ) && is_array( $tools['object'] ) ) {
 							foreach ( $tools['object'] as $object ) {
-								$check_or = (int) $term_id === (int) $object ? true : false;
+
+								$check_or = in_array( (int) $object, $term_ids, true) ? true : false;
+
 								if ( $check_or ) {
 									break;
 								}
